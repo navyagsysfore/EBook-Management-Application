@@ -22,7 +22,7 @@ namespace Ebook_Management_Application.Controllers
             this.bookService = bookService;
            this.authorService = authorService;
         }
-
+       
         [HttpGet]
         [Route("/GetAllBook")]
         public ActionResult GetAllBook()
